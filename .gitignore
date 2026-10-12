@@ -1,0 +1,88 @@
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==================== Виртуальное окружение ====================
+.venv/
+venv/
+env/
+ENV/
+.venv.bak/
+
+# ==================== IDE ====================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ==================== Jupyter ====================
+.ipynb_checkpoints/
+
+# ==================== Датасеты ====================
+# Исходный датасет (скачивается отдельно, ~500 МБ)
+waste_dataset/
+data_resolved.yaml
+
+
+# Сконвертированный YOLO-датасет (создаётся converter.py, ~1 ГБ)
+Waste-YOLO/images/
+Waste-YOLO/labels/
+
+# Превью разметки (генерируется check_Labels.py)
+label_check/
+
+# ==================== Веса моделей ====================
+*.pt
+*.pth
+*.onnx
+*.engine
+*.mlmodel
+*.torchscript
+*.tflite
+*.h5
+*.pb
+_saved_model/
+*_openvino_model/
+*_paddle_model/
+
+# ==================== Результаты обучения ====================
+runs/
+
+# ==================== TensorBoard ====================
+events.out.tfevents.*
+logs/
+
+# ==================== Кэш ====================
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# ==================== OS ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== Прочее ====================
+*.log
+*.tmp
+*.bak

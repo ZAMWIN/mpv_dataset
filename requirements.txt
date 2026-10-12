@@ -1,0 +1,11 @@
+# torch с CUDA 12.4 — ставить под свою видяху, в моем случае это вот это:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+#
+# Остальное:
+ultralytics>=8.3.0
+huggingface_hub>=0.25.0
+Pillow>=10.2.0
+PyYAML>=6.0.1
+tensorboard>=2.17.0
+onnx>=1.16.0
+onnxruntime-gpu>=1.18.0    # GPU-версия для ONNX инференса
